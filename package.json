@@ -13,8 +13,40 @@
     "pack": "npm run build && electron-packager ./ --overwrite"
   },
   "dependencies": {
-    "cross-env": "^3.1.4",
     "electron": "^1.4.15",
-    "nuxt": "^1.0.0-rc11"
+    "nuxt": "^1.0.0-rc11",
+    "vuetify": "^0.15.3"
+  },
+  "devDependencies": {
+    "ajv": ">=5.0.0",
+    "ajv-keywords": "^2.1.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-helper-vue-jsx-merge-props": "^2.0.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-jsx": "^6.8.0",
+    "babel-plugin-transform-vue-jsx": "^3.5.0",
+    "caniuse-lite": "^1.0.30000697",
+    "cross-env": "^3.1.4",
+    "css-loader": "*",
+    "eslint": ">=3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.2.1",
+    "eslint-plugin-import": ">=2.2.0",
+    "eslint-plugin-node": ">=4.2.2",
+    "eslint-plugin-promise": ">=3.5.0",
+    "eslint-plugin-standard": ">=3.0.0",
+    "eslint-plugin-vue": "^3.13.0",
+    "eslint-stylish": "^0.2.0",
+    "file-loader": "*",
+    "postcss-cssnext": "^3.0.2",
+    "stylish": "^1.0.0",
+    "stylus": ">=0.40.0",
+    "stylus-loader": "^3.0.1",
+    "url-loader": "^0.5.9",
+    "vue-loader": "^13.0.4",
+    "vue-template-compiler": "^2.0.0",
+    "webpack": "3"
   }
 }

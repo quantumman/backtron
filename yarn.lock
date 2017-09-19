@@ -5796,6 +5796,12 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
+vue-authenticate@^1.2.7:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/vue-authenticate/-/vue-authenticate-1.2.7.tgz#48c634bd1ae015a25b8acab267b408a399cbfc55"
+  dependencies:
+    vue "^2.2.5"
+
 vue-eslint-parser@^2.0.1-beta.0:
   version "2.0.1-beta.1"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-2.0.1-beta.1.tgz#7e1b3c0865905264605169497fe9e42d27c1ae60"
@@ -5871,7 +5877,7 @@ vue-template-es2015-compiler@^1.5.3:
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.5.3.tgz#22787de4e37ebd9339b74223bc467d1adee30545"
 
-vue@~2.4.2:
+vue@^2.2.5, vue@~2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.4.2.tgz#a9855261f191c978cc0dc1150531b8d08149b58c"
 
